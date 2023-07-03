@@ -1,0 +1,18 @@
+.separator {
+  position: absolute;
+  left: 0%; // Positionnement au centre du parent (peut être modifié)
+  top: 0;
+  width: 1px; // Largeur de la barre verticale (à adapter selon vos besoins)
+  height: 100%; // Hauteur égale à celle du parent
+  background-color: black; // Couleur de la barre (peut être modifiée)
+}
+
+.ictCommun{
+  background-image: linear-gradient(to top, #b3d7ff, #e6f3ff);
+}
+.ictDev{
+  background-image: linear-gradient(to top, #bca2e5, #e4d3ff);
+}
+.ictInfra{
+  background-image: linear-gradient(to top, #f0be86, #ffe0bd);
+}
